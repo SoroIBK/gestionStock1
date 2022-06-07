@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="291.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="282.0" layoutY="14.0" prefHeight="48.0" prefWidth="148.0" text="ENTREE">
+         <font>
+            <Font name="Apple Color Emoji" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="80.0" text="Id Entrée" />
+      <TextField layoutX="22.0" layoutY="105.0" prefHeight="25.0" prefWidth="92.0" />
+      <Label layoutX="187.0" layoutY="80.0" text="DATE" />
+      <TextField layoutX="273.0" layoutY="105.0" prefHeight="25.0" prefWidth="106.0" />
+      <TextField layoutX="396.0" layoutY="105.0" prefHeight="25.0" prefWidth="106.0" />
+      <Label layoutX="305.0" layoutY="80.0" text="HEURE" />
+      <Label layoutX="413.0" layoutY="80.0" text="QUANTITÉ" />
+      <DatePicker layoutX="141.0" layoutY="105.0" prefHeight="25.0" prefWidth="115.0" />
+      <Button layoutX="444.0" layoutY="188.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="115.0" text="VALIDER" />
+      <Label layoutX="542.0" layoutY="80.0" text="CATÉGORIE" />
+      <ChoiceBox layoutX="524.0" layoutY="105.0" prefHeight="25.0" prefWidth="106.0" />
+      <Button layoutX="187.0" layoutY="188.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="115.0" text="ANNULER" />
+   </children>
+</AnchorPane>
